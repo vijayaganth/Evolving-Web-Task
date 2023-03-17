@@ -1,0 +1,96 @@
+@import "./../../Style/color.scss";
+
+@mixin cart-items-buttons {
+  display: flex;
+  justify-content: flex-end;
+  button {
+    margin: 0px 5px;
+    padding: 7px 25px;
+  }
+}
+
+.cart-items {
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 560px;
+  margin: 20px auto 0px;
+  max-height: 300px;
+  overflow-y: auto;
+  ul {
+    padding-bottom: 25px;
+  }
+  &-buttons {
+    display: flex;
+    align-items: center;
+    button {
+      margin: 0px 5px;
+    }
+  }
+  &-order {
+    @include cart-items-buttons;
+    // display: flex;
+    // justify-content: flex-end;
+    // button {
+    //   margin: 0px 5px;
+    //   padding: 7px 25px;
+    // }
+  }
+  &-amount {
+    display: flex;
+    align-items: center;
+    .meal-amount {
+      margin-right: 15px;
+    }
+    .item-count {
+      border: 1px solid $ash-color;
+      border-radius: 5px;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+      padding: 10px;
+    }
+  }
+  h2 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+  }
+}
+
+.orderForm {
+  max-height: 300px;
+  overflow-y: auto;
+  .form-control {
+    padding-bottom: 15px;
+    max-width: 260px;
+    label {
+      font-weight: bold;
+      font-size: 14px;
+    }
+    &-text {
+      padding: 10px 15px;
+      width: 100%;
+    }
+    &-error {
+      color: red;
+      font-size: 12px;
+    }
+    &-buttons {
+      @include cart-items-buttons;
+    }
+  }
+}
+
+.modal-success {
+  p {
+    font-size: 16px;
+    padding-bottom: 15px;
+  }
+  &-button {
+    display: flex;
+    justify-content: flex-end;
+    button {
+      padding: 7px 25px;
+    }
+  }
+}

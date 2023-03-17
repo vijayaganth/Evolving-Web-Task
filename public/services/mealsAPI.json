@@ -1,0 +1,38 @@
+[
+    {
+        "id":0,
+        "name":"Meal1",
+        "description":"In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+        "price":100
+    },
+    {
+        "id":1,
+        "name":"Meal2",
+        "description":"In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+        "price":200
+    },
+    {
+        "id":2,
+        "name":"Meal3",
+        "description":"In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+        "price":300
+    },
+    {
+        "id":3,
+        "name":"Meal4",
+        "description":"In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+        "price":400
+    },
+    {
+        "id":4,
+        "name":"Meal5",
+        "description":"In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+        "price":500
+    },
+    {
+        "id":5,
+        "name":"Meal6",
+        "description":"In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+        "price":600
+    }
+]
