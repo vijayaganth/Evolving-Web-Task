@@ -39,12 +39,12 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Application concept: Add Cart
+## Application concept: Add to cart
 
 Application have implemented add to cart functionality. Product items are get from local API and consume in UI. Each product have amount text box which can be enter number of amount. After that click to add under the box, it'll be added on cart. You can see what are items in cart by clicking on "Your cart" section at hearder. In cart modal window showing list of cart items which can be modify the number of items. Once you click order button user needs to fill delivery address. After fill up the address and click submit then you will get success message.
 
 Note: Application have some condition which is
-User couldn't add more than 5 in each items and overall net greater than 50 
+User couldn't add more than 5 in each items and overall not greater than 50 
 
 ## Learn More
 
